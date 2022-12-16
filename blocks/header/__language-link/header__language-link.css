@@ -1,0 +1,31 @@
+.header__language-link {
+  margin: 0;
+  padding: 0;
+  margin-right: 14px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+  text-decoration-line: none;
+  max-width: 29px;
+  min-height: 28px;
+  color: #ffffff;
+}
+
+.header__language-link:last-child {
+  margin-right: 0;
+}
+@media screen and (max-width: 692px){
+    .header__language-link {
+    font-size: 18px;
+    line-height: 20px;
+    max-width: 22px;
+    min-height: 20px;
+  }
+
+  .header__language-link:last-child {
+    margin-right: 0;
+  }
+}

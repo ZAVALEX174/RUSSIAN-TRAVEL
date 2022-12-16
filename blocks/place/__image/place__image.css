@@ -1,0 +1,13 @@
+.place__image {
+  margin: 0;
+  max-width: 100%;
+}
+@media screen and (max-width: 692px)
+{
+.place__image {
+    margin: 0 -16px 29px -16px;
+    padding: 0;
+    width: calc(100% + 32px);
+    max-width: calc(100% + 32px);
+  }
+}

@@ -1,0 +1,9 @@
+/* @media screen and (max-width: 692px) */
+/* { */
+.cover__text {
+  text-align: center;
+  position: relative;
+}
+.cover__text:hover {
+  text-decoration-color: #ffffff;
+}
