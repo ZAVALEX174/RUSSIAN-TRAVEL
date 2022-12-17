@@ -11,20 +11,21 @@
   max-width: 640px;
   min-height: 72px;
 }
+
 @media (max-width: 1024px) {
   .lead__subtitle {
     margin-bottom: 56px;
   }
 }
-@media (max-width: 768px)
-{
-.lead__subtitle {
+
+@media (max-width: 768px) {
+  .lead__subtitle {
     margin: 0 auto;
     padding-bottom: 55px;
   }
 }
-@media screen and (max-width: 692px)
-{
+
+@media screen and (max-width: 692px) {
   .lead__subtitle {
     margin-bottom: 40px;
     padding-bottom: 0;

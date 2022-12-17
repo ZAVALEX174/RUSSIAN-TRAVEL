@@ -11,14 +11,14 @@
   min-height: 200px;
   text-align: center;
 }
-@media screen and (max-width: 1024px)
-{
+
+@media screen and (max-width: 1024px) {
   .lead__title {
     margin-bottom: 32px;
   }
 }
-@media screen and (max-width: 692px)
-{
+
+@media screen and (max-width: 692px) {
   .lead__title {
     margin-bottom: 16px;
     font-size: 40px;

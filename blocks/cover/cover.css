@@ -3,16 +3,14 @@
   max-width: 1184px;
   margin: 92px auto;
 }
-@media screen and (max-width: 768px)
-{
+
+@media screen and (max-width: 768px) {
   .cover {
     margin-bottom: 86px;
   }
 }
 
-
-@media screen and (max-width: 692px)
-{
+@media screen and (max-width: 692px) {
   .cover {
     margin: 64px auto;
   }

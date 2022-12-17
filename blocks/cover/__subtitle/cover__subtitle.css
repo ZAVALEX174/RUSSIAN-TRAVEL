@@ -10,9 +10,11 @@
   min-height: 66px;
   padding-top: 32px;
   color: #ffffff;
+  position: relative;
+  width: 100%;
 }
-@media screen and (max-width: 692px)
-{
+
+@media screen and (max-width: 692px) {
   .cover__subtitle {
     margin: 0 auto;
     font-size: 14px;

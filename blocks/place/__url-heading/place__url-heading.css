@@ -7,23 +7,24 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
+  color: #aaaaaa;
 }
-@media (max-width: 1024px)
-{
+
+@media (max-width: 1024px) {
   .place__url-heading {
     padding-bottom: 5px;
   }
 }
-@media (max-width: 768px)
-{
-.place__url-heading {
+
+@media (max-width: 768px) {
+  .place__url-heading {
     font-size: 12px;
     line-height: 12px;
   }
 }
-@media screen and (max-width: 692px)
-{
- .place__url-heading {
+
+@media screen and (max-width: 692px) {
+  .place__url-heading {
     margin: 0;
     padding-bottom: 12px;
     line-height: 12px;

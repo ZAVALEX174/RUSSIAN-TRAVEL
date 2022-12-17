@@ -10,15 +10,15 @@
   line-height: 18px;
   list-style-type: none;
 }
-@media screen and (max-width: 1024px)
-{
+
+@media screen and (max-width: 1024px) {
   .intro__list {
     padding-top: 33px;
   }
 }
-@media screen and (max-width: 692px)
-{
- .intro__list {
+
+@media screen and (max-width: 692px) {
+  .intro__list {
     padding-top: 32px;
   }
 }

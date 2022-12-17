@@ -7,15 +7,16 @@
   background-size: contain;
   text-align: left;
 }
+
 @media (max-width: 1024px) {
- .intro {
+  .intro {
     margin-left: 48px;
     max-width: 690px;
     padding-right: 0;
   }
 }
-@media (max-width: 768px)
-{
+
+@media (max-width: 768px) {
   .intro {
     padding-top: 88px;
     max-width: initial;
@@ -23,8 +24,8 @@
     margin-right: 24px;
   }
 }
-@media screen and (max-width: 692px)
-{
+
+@media screen and (max-width: 692px) {
   .intro {
     margin: 0 auto;
     padding-left: 16px;

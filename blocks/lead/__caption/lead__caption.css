@@ -10,15 +10,15 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
-@media (max-width: 768px)
-{
+
+@media (max-width: 768px) {
   .lead__caption {
     padding-left: 24px;
   }
 }
-@media screen and (max-width: 692px)
-{
-.lead__caption {
+
+@media screen and (max-width: 692px) {
+  .lead__caption {
     padding-left: 0;
   }
 }

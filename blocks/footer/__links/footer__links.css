@@ -6,9 +6,9 @@
   align-content: center;
   justify-content: space-between;
 }
-@media screen and (max-width: 692px)
-{
-.footer__links {
+
+@media screen and (max-width: 692px) {
+  .footer__links {
     margin: 0;
     color: #ffffff;
     display: flex;

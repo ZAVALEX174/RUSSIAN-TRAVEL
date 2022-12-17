@@ -1,4 +1,4 @@
-.footer__container {
+.footer {
   margin: 0 auto;
   padding-top: 0;
   padding-bottom: 24px;
@@ -7,9 +7,9 @@
   align-content: center;
   justify-content: space-between;
 }
-@media screen and (max-width: 692px)
-{
-.footer__container {
+
+@media screen and (max-width: 692px) {
+  .footer {
     display: block;
     padding-left: 16px;
     min-height: 320px;

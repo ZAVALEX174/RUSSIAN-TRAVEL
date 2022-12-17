@@ -6,25 +6,25 @@
   grid-template-columns: repeat(auto-fill, 284px);
   gap: 16px;
 }
-@media (max-width: 1024px) {
 
-.cards {
+@media (max-width: 1024px) {
+  .cards {
     overflow: hidden;
     grid-template-rows: repeat(4, 225px);
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
   }
 }
-@media (max-width: 768px)
-{
-.cards {
+
+@media (max-width: 768px) {
+  .cards {
     grid-template-rows: repeat(6, 264px);
     grid-template-columns: repeat(2, 352px);
     gap: 16px;
   }
 }
-@media screen and (max-width: 692px)
-{
+
+@media screen and (max-width: 692px) {
   .cards {
     margin: 0 auto;
     padding: 0;

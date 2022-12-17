@@ -4,24 +4,38 @@
   grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
   grid-auto-rows: minmax(76px, auto);
 }
+
 @media (max-width: 1024px) {
   .place {
     grid-template-columns: 440px auto;
     gap: 48px 32px;
   }
 }
-@media (max-width: 768px)
-{
-.place {
+
+@media (max-width: 1023px) {
+  .place {
+    grid-template-columns: calc(50% - 16px) calc(50% - 16px);
+    gap: 48px 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
     grid-template-columns: 340px auto;
     gap: 45px 28px;
   }
 }
-@media screen and (max-width: 692px)
-{
+
+@media (max-width: 767px) {
+  .place {
+    grid-template-columns: calc(50% - 14px) calc(50% - 14px);
+    gap: 45px 28px;
+  }
+}
+
+@media screen and (max-width: 692px) {
   .place {
     max-width: 100%;
     display: block;
-
   }
 }

@@ -11,6 +11,7 @@
     width: auto;
   }
 }
+
 @media screen and (max-width: 692px) {
   .cards__image {
     margin: 0;
