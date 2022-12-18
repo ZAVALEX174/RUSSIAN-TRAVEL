@@ -11,3 +11,10 @@
     width: auto;
   }
 }
+
+@media (max-width: 670px) {
+  .cards__image {
+    height: auto;
+    width: 100%;
+  }
+}

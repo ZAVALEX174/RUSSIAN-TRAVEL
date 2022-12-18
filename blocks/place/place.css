@@ -15,10 +15,11 @@
 @media (max-width: 768px) {
   .place {
     gap: 45px 28px;
+    grid-template-columns: minmax(300px, 340px) minmax(288px, 352px);
   }
 }
 
-@media screen and (max-width: 692px) {
+@media screen and (max-width: 670px) {
   .place {
     max-width: 100%;
     display: block;

@@ -12,7 +12,7 @@
   background-size: contain;
 }
 
-@media screen and (max-width: 692px) {
+@media screen and (max-width: 670px) {
   .intro__text {
     padding-top: 43px;
   }

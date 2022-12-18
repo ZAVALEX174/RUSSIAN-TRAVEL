@@ -19,7 +19,7 @@
   }
 }
 
-@media screen and (max-width: 692px) {
+@media screen and (max-width: 670px) {
   .place__paragraphs {
     line-height: 26px;
     padding-left: 16px;

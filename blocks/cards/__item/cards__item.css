@@ -5,7 +5,7 @@
   line-height: 0;
 }
 
-@media screen and (max-width: 692px) {
+@media screen and (max-width: 670px) {
   .cards__item {
     padding-bottom: 12px;
     max-width: 100%;

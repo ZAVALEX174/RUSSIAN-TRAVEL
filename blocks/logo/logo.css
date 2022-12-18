@@ -5,7 +5,7 @@
   border-radius: 0px;
 }
 
-@media screen and (max-width: 692px) {
+@media screen and (max-width: 670px) {
   .logo {
     min-height: 42px;
     max-width: 142px;
