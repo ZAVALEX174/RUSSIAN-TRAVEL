@@ -1,4 +1,4 @@
-.place__paragraph {
+.place__paragraphs {
   margin: 0;
   padding-bottom: 26px;
   font-family: "Inter", sans-serif;
@@ -8,24 +8,21 @@
   line-height: 163%;
 }
 
-.place__paragraph:last-child {
+.place__paragraphs:last-child {
   padding-bottom: 0;
 }
 
 @media (max-width: 768px) {
-  .place__paragraph {
+  .place__paragraphs {
     padding-bottom: 25px;
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 692px) {
-  .place__paragraph {
-    padding-bottom: 25px;
+  .place__paragraphs {
     line-height: 26px;
-  }
-
-  .place__paragraph:last-child {
-    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

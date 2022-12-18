@@ -9,14 +9,13 @@
   max-width: 360px;
   min-height: 66px;
   padding-top: 32px;
-  color: #ffffff;
+  color: #fff;
   position: relative;
   width: 100%;
 }
 
 @media screen and (max-width: 692px) {
   .cover__subtitle {
-    margin: 0 auto;
     font-size: 14px;
     line-height: 16px;
     max-width: 288px;

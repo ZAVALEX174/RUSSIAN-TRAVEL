@@ -3,7 +3,6 @@
   padding-top: 0;
   padding-bottom: 24px;
   display: flex;
-  flex-direction: row;
   align-content: center;
   justify-content: space-between;
 }
@@ -12,6 +11,5 @@
   .footer {
     display: block;
     padding-left: 16px;
-    min-height: 320px;
   }
 }
