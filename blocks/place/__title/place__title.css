@@ -1,5 +1,6 @@
 .place__title {
   margin: 0;
+  padding: 0;
   padding-top: 32px;
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -9,7 +10,7 @@
   align-self: end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 924px) {
   .place__title {
     padding-top: 27px;
     padding-right: 10px;
