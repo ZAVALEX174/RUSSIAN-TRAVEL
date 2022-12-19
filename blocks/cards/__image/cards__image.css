@@ -1,5 +1,5 @@
 .cards__image {
-  margin: 0;
+  margin: 0 auto;
   width: 100%;
   object-fit: cover;
   max-width: 100%;
@@ -8,12 +8,5 @@
 @media (max-width: 1024px) {
   .cards__image {
     height: 100%;
-    width: auto;
-  }
-}
-
-@media (max-width: 670px) {
-  .cards__image {
-    height: auto;
   }
 }
