@@ -9,7 +9,6 @@
   line-height: 28px;
   text-align: right;
   text-decoration-line: none;
-  max-width: 29px;
   color: #fff;
 }
 
@@ -26,6 +25,5 @@
   .header__language-link {
     font-size: 18px;
     line-height: 20px;
-    max-width: 22px;
   }
 }
